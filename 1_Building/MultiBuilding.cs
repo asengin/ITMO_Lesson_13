@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1_Building
 {
-    class MultiBuilding : Building
+    sealed class MultiBuilding : Building
     {
         private byte FloorsBuilding { get; set; }
         
